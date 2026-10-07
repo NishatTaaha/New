@@ -1,0 +1,22 @@
+{
+  "run_id": "ColonDB_MK_UNet_seed5",
+  "dataset": "ColonDB",
+  "seed": 5,
+  "network": "MK_UNet",
+  "channels": [
+    16,
+    32,
+    64,
+    96,
+    160
+  ],
+  "params_M": 0.315566,
+  "epochs": 100,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "augmentation": false,
+  "best_val_dice": 0.8244163762581976,
+  "test_dice": 0.7785782135059949,
+  "test_iou": 0.7107191686805328,
+  "train_time_min": 12.961410709222157
+}

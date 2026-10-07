@@ -1,0 +1,18 @@
+======================================================================
+RUN ColonDB_MK_UNet_seed4 | start 2026-10-02 18:55:59
+epochs=100 batch=8 lr=0.0001 wd=0.0001 aug=False resume=True
+======================================================================
+[fresh] ColonDB_MK_UNet_seed4 | no last.pth found | training from epoch 1
+[18:56:07] ColonDB_MK_UNet_seed4 | Ep 001/100 | loss=1.6599 | valDice=0.0000 | valIoU=0.0000 | best=0.0000
+[18:57:18] ColonDB_MK_UNet_seed4 | Ep 010/100 | loss=1.1285 | valDice=0.4637 | valIoU=0.3565 | best=0.4637
+[18:58:35] ColonDB_MK_UNet_seed4 | Ep 020/100 | loss=0.5642 | valDice=0.6026 | valIoU=0.4894 | best=0.6233
+[18:59:53] ColonDB_MK_UNet_seed4 | Ep 030/100 | loss=0.3714 | valDice=0.7171 | valIoU=0.6313 | best=0.7285
+[19:01:10] ColonDB_MK_UNet_seed4 | Ep 040/100 | loss=0.2838 | valDice=0.7593 | valIoU=0.6718 | best=0.7830
+[19:02:28] ColonDB_MK_UNet_seed4 | Ep 050/100 | loss=0.2353 | valDice=0.7822 | valIoU=0.7035 | best=0.7833
+[19:03:45] ColonDB_MK_UNet_seed4 | Ep 060/100 | loss=0.1882 | valDice=0.7988 | valIoU=0.7180 | best=0.8001
+[19:05:02] ColonDB_MK_UNet_seed4 | Ep 070/100 | loss=0.1686 | valDice=0.8064 | valIoU=0.7310 | best=0.8064
+[19:06:20] ColonDB_MK_UNet_seed4 | Ep 080/100 | loss=0.1512 | valDice=0.8046 | valIoU=0.7295 | best=0.8078
+[19:07:38] ColonDB_MK_UNet_seed4 | Ep 090/100 | loss=0.1505 | valDice=0.8035 | valIoU=0.7288 | best=0.8088
+[19:08:56] ColonDB_MK_UNet_seed4 | Ep 100/100 | loss=0.1399 | valDice=0.8059 | valIoU=0.7319 | best=0.8088
+ColonDB_MK_UNet_seed4 | training done in 12.9 min | best val 0.8088
+ColonDB_MK_UNet_seed4 | TEST Dice=0.7683 IoU=0.6933

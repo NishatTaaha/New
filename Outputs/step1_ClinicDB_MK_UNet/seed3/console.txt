@@ -1,0 +1,50 @@
+======================================================================
+RUN ClinicDB_MK_UNet_seed3 | 2026-10-02 06:15:45
+======================================================================
+[06:15:57] ClinicDB_MK_UNet_seed3 | Ep 001/100 | loss=1.4294 | valDice=0.0024 | best=0.0024
+[06:17:45] ClinicDB_MK_UNet_seed3 | Ep 010/100 | loss=0.6234 | valDice=0.7250 | best=0.7250
+[06:19:46] ClinicDB_MK_UNet_seed3 | Ep 020/100 | loss=0.3938 | valDice=0.7681 | best=0.7761
+[06:21:46] ClinicDB_MK_UNet_seed3 | Ep 030/100 | loss=0.2732 | valDice=0.7922 | best=0.7922
+[06:23:47] ClinicDB_MK_UNet_seed3 | Ep 040/100 | loss=0.2155 | valDice=0.7883 | best=0.8093
+[06:25:48] ClinicDB_MK_UNet_seed3 | Ep 050/100 | loss=0.1909 | valDice=0.8155 | best=0.8248
+[06:27:51] ClinicDB_MK_UNet_seed3 | Ep 060/100 | loss=0.1690 | valDice=0.8318 | best=0.8318
+[06:29:55] ClinicDB_MK_UNet_seed3 | Ep 070/100 | loss=0.1478 | valDice=0.8242 | best=0.8318
+[06:31:59] ClinicDB_MK_UNet_seed3 | Ep 080/100 | loss=0.1488 | valDice=0.8093 | best=0.8318
+[06:34:02] ClinicDB_MK_UNet_seed3 | Ep 090/100 | loss=0.1370 | valDice=0.8158 | best=0.8318
+[06:36:07] ClinicDB_MK_UNet_seed3 | Ep 100/100 | loss=0.1341 | valDice=0.8247 | best=0.8318
+ClinicDB_MK_UNet_seed3 | training done in 20.4 min | best val 0.8318
+ClinicDB_MK_UNet_seed3 | TEST Dice=0.8336 IoU=0.7533
+======================================================================
+RUN ClinicDB_MK_UNet_seed3 | 2026-10-02 14:06:51
+======================================================================
+[14:07:03] ClinicDB_MK_UNet_seed3 | Ep 001/100 | loss=1.4274 | valDice=0.0015 | best=0.0015
+[14:08:50] ClinicDB_MK_UNet_seed3 | Ep 010/100 | loss=0.6284 | valDice=0.7012 | best=0.7012
+[14:10:50] ClinicDB_MK_UNet_seed3 | Ep 020/100 | loss=0.4014 | valDice=0.7658 | best=0.7691
+[14:12:50] ClinicDB_MK_UNet_seed3 | Ep 030/100 | loss=0.2777 | valDice=0.7951 | best=0.7951
+[14:14:49] ClinicDB_MK_UNet_seed3 | Ep 040/100 | loss=0.2251 | valDice=0.7764 | best=0.8023
+[14:16:48] ClinicDB_MK_UNet_seed3 | Ep 050/100 | loss=0.1935 | valDice=0.7689 | best=0.8023
+[14:18:48] ClinicDB_MK_UNet_seed3 | Ep 060/100 | loss=0.1644 | valDice=0.7863 | best=0.8023
+[14:20:47] ClinicDB_MK_UNet_seed3 | Ep 070/100 | loss=0.1494 | valDice=0.7918 | best=0.8061
+[14:22:46] ClinicDB_MK_UNet_seed3 | Ep 080/100 | loss=0.1429 | valDice=0.7850 | best=0.8061
+[14:24:45] ClinicDB_MK_UNet_seed3 | Ep 090/100 | loss=0.1411 | valDice=0.7904 | best=0.8061
+[14:26:44] ClinicDB_MK_UNet_seed3 | Ep 100/100 | loss=0.1337 | valDice=0.7889 | best=0.8061
+ClinicDB_MK_UNet_seed3 | training done in 19.9 min | best val 0.8061
+ClinicDB_MK_UNet_seed3 | TEST Dice=0.8308 IoU=0.7490
+======================================================================
+RUN ClinicDB_MK_UNet_seed3 | start 2026-10-02 17:15:50
+epochs=100 batch=8 lr=0.0001 wd=0.0001 aug=False resume=True
+======================================================================
+[fresh] ClinicDB_MK_UNet_seed3 | no last.pth found | training from epoch 1
+[17:16:02] ClinicDB_MK_UNet_seed3 | Ep 001/100 | loss=1.4273 | valDice=0.0028 | valIoU=0.0014 | best=0.0028
+[17:17:54] ClinicDB_MK_UNet_seed3 | Ep 010/100 | loss=0.6553 | valDice=0.6772 | valIoU=0.5621 | best=0.6786
+[17:19:57] ClinicDB_MK_UNet_seed3 | Ep 020/100 | loss=0.3950 | valDice=0.7740 | valIoU=0.6753 | best=0.7765
+[17:21:59] ClinicDB_MK_UNet_seed3 | Ep 030/100 | loss=0.2925 | valDice=0.8023 | valIoU=0.7108 | best=0.8023
+[17:24:01] ClinicDB_MK_UNet_seed3 | Ep 040/100 | loss=0.2362 | valDice=0.8093 | valIoU=0.7175 | best=0.8282
+[17:26:03] ClinicDB_MK_UNet_seed3 | Ep 050/100 | loss=0.2001 | valDice=0.8003 | valIoU=0.7153 | best=0.8312
+[17:28:05] ClinicDB_MK_UNet_seed3 | Ep 060/100 | loss=0.1775 | valDice=0.8154 | valIoU=0.7260 | best=0.8334
+[17:30:06] ClinicDB_MK_UNet_seed3 | Ep 070/100 | loss=0.1544 | valDice=0.8298 | valIoU=0.7405 | best=0.8407
+[17:32:08] ClinicDB_MK_UNet_seed3 | Ep 080/100 | loss=0.1504 | valDice=0.8192 | valIoU=0.7246 | best=0.8407
+[17:34:09] ClinicDB_MK_UNet_seed3 | Ep 090/100 | loss=0.1457 | valDice=0.8264 | valIoU=0.7337 | best=0.8407
+[17:36:11] ClinicDB_MK_UNet_seed3 | Ep 100/100 | loss=0.1361 | valDice=0.8229 | valIoU=0.7299 | best=0.8407
+ClinicDB_MK_UNet_seed3 | training done in 20.3 min | best val 0.8407
+ClinicDB_MK_UNet_seed3 | TEST Dice=0.8627 IoU=0.7841

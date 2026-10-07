@@ -1,0 +1,22 @@
+{
+  "run_id": "ClinicDB_MK_UNet_seed4",
+  "dataset": "ClinicDB",
+  "seed": 4,
+  "network": "MK_UNet",
+  "channels": [
+    16,
+    32,
+    64,
+    96,
+    160
+  ],
+  "params_M": 0.315566,
+  "epochs": 100,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "augmentation": false,
+  "best_val_dice": 0.8475832133019556,
+  "test_dice": 0.8524687867642533,
+  "test_iou": 0.7837315570113282,
+  "train_time_min": 20.285944851239524
+}

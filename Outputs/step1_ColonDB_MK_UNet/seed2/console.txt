@@ -1,0 +1,50 @@
+======================================================================
+RUN ColonDB_MK_UNet_seed2 | 2026-10-02 06:49:20
+======================================================================
+[06:49:28] ColonDB_MK_UNet_seed2 | Ep 001/100 | loss=1.5532 | valDice=0.0000 | best=0.0000
+[06:50:39] ColonDB_MK_UNet_seed2 | Ep 010/100 | loss=1.0277 | valDice=0.4446 | best=0.4665
+[06:51:58] ColonDB_MK_UNet_seed2 | Ep 020/100 | loss=0.5408 | valDice=0.6693 | best=0.6693
+[06:53:17] ColonDB_MK_UNet_seed2 | Ep 030/100 | loss=0.3717 | valDice=0.7434 | best=0.7434
+[06:54:36] ColonDB_MK_UNet_seed2 | Ep 040/100 | loss=0.2920 | valDice=0.7458 | best=0.7603
+[06:55:55] ColonDB_MK_UNet_seed2 | Ep 050/100 | loss=0.2253 | valDice=0.7653 | best=0.7885
+[06:57:14] ColonDB_MK_UNet_seed2 | Ep 060/100 | loss=0.1911 | valDice=0.7843 | best=0.8141
+[06:58:32] ColonDB_MK_UNet_seed2 | Ep 070/100 | loss=0.1630 | valDice=0.8003 | best=0.8141
+[06:59:51] ColonDB_MK_UNet_seed2 | Ep 080/100 | loss=0.1609 | valDice=0.7924 | best=0.8141
+[07:01:09] ColonDB_MK_UNet_seed2 | Ep 090/100 | loss=0.1472 | valDice=0.7973 | best=0.8141
+[07:02:27] ColonDB_MK_UNet_seed2 | Ep 100/100 | loss=0.1426 | valDice=0.7968 | best=0.8141
+ColonDB_MK_UNet_seed2 | training done in 13.1 min | best val 0.8141
+ColonDB_MK_UNet_seed2 | TEST Dice=0.7350 IoU=0.6511
+======================================================================
+RUN ColonDB_MK_UNet_seed2 | 2026-10-02 14:39:26
+======================================================================
+[14:39:33] ColonDB_MK_UNet_seed2 | Ep 001/100 | loss=1.5540 | valDice=0.0000 | best=0.0000
+[14:40:42] ColonDB_MK_UNet_seed2 | Ep 010/100 | loss=1.0257 | valDice=0.4888 | best=0.4888
+[14:41:58] ColonDB_MK_UNet_seed2 | Ep 020/100 | loss=0.6052 | valDice=0.6211 | best=0.6451
+[14:43:14] ColonDB_MK_UNet_seed2 | Ep 030/100 | loss=0.4125 | valDice=0.7313 | best=0.7366
+[14:44:30] ColonDB_MK_UNet_seed2 | Ep 040/100 | loss=0.3242 | valDice=0.7529 | best=0.7602
+[14:45:46] ColonDB_MK_UNet_seed2 | Ep 050/100 | loss=0.2577 | valDice=0.7425 | best=0.7666
+[14:47:02] ColonDB_MK_UNet_seed2 | Ep 060/100 | loss=0.2086 | valDice=0.7655 | best=0.7697
+[14:48:18] ColonDB_MK_UNet_seed2 | Ep 070/100 | loss=0.1787 | valDice=0.7603 | best=0.7719
+[14:49:33] ColonDB_MK_UNet_seed2 | Ep 080/100 | loss=0.1825 | valDice=0.7683 | best=0.7719
+[14:50:49] ColonDB_MK_UNet_seed2 | Ep 090/100 | loss=0.1653 | valDice=0.7696 | best=0.7759
+[14:52:05] ColonDB_MK_UNet_seed2 | Ep 100/100 | loss=0.1591 | valDice=0.7633 | best=0.7759
+ColonDB_MK_UNet_seed2 | training done in 12.7 min | best val 0.7759
+ColonDB_MK_UNet_seed2 | TEST Dice=0.7317 IoU=0.6565
+======================================================================
+RUN ColonDB_MK_UNet_seed2 | start 2026-10-02 18:29:57
+epochs=100 batch=8 lr=0.0001 wd=0.0001 aug=False resume=True
+======================================================================
+[fresh] ColonDB_MK_UNet_seed2 | no last.pth found | training from epoch 1
+[18:30:04] ColonDB_MK_UNet_seed2 | Ep 001/100 | loss=1.5530 | valDice=0.0001 | valIoU=0.0001 | best=0.0001
+[18:31:15] ColonDB_MK_UNet_seed2 | Ep 010/100 | loss=1.0280 | valDice=0.4911 | valIoU=0.3706 | best=0.4911
+[18:32:32] ColonDB_MK_UNet_seed2 | Ep 020/100 | loss=0.5528 | valDice=0.5889 | valIoU=0.4720 | best=0.6142
+[18:33:50] ColonDB_MK_UNet_seed2 | Ep 030/100 | loss=0.3815 | valDice=0.6795 | valIoU=0.5689 | best=0.7354
+[18:35:08] ColonDB_MK_UNet_seed2 | Ep 040/100 | loss=0.3016 | valDice=0.7543 | valIoU=0.6573 | best=0.7543
+[18:36:26] ColonDB_MK_UNet_seed2 | Ep 050/100 | loss=0.2273 | valDice=0.7300 | valIoU=0.6333 | best=0.7683
+[18:37:43] ColonDB_MK_UNet_seed2 | Ep 060/100 | loss=0.2019 | valDice=0.7467 | valIoU=0.6524 | best=0.7683
+[18:39:01] ColonDB_MK_UNet_seed2 | Ep 070/100 | loss=0.1724 | valDice=0.7625 | valIoU=0.6749 | best=0.7683
+[18:40:19] ColonDB_MK_UNet_seed2 | Ep 080/100 | loss=0.1693 | valDice=0.7643 | valIoU=0.6734 | best=0.7683
+[18:41:37] ColonDB_MK_UNet_seed2 | Ep 090/100 | loss=0.1602 | valDice=0.7640 | valIoU=0.6705 | best=0.7692
+[18:42:54] ColonDB_MK_UNet_seed2 | Ep 100/100 | loss=0.1472 | valDice=0.7649 | valIoU=0.6738 | best=0.7692
+ColonDB_MK_UNet_seed2 | training done in 13.0 min | best val 0.7692
+ColonDB_MK_UNet_seed2 | TEST Dice=0.7322 IoU=0.6569
